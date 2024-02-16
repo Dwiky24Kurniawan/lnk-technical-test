@@ -16,4 +16,9 @@ or how to run with visualization
 npx cypress open
 ```
 
+open report
+```
+start cypress\reports\html\index.html
+```
+
 Link test case google sheet : https://docs.google.com/spreadsheets/d/1O2Ru9LJCvLF0f4lODSI08ldrcjPFlxn3/edit?usp=sharing&ouid=103408231313283929682&rtpof=true&sd=true
