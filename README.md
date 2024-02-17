@@ -25,4 +25,4 @@ Link test case google sheet : https://docs.google.com/spreadsheets/d/1O2Ru9LJCvL
 
 or
 
-You can find test case in [this folder](https://github.com/Dwiky24Kurniawan/lnk-technical-test/tree/main/test_case_excel)
+You can find test case file in [this folder](https://github.com/Dwiky24Kurniawan/lnk-technical-test/tree/main/test_case_excel)
