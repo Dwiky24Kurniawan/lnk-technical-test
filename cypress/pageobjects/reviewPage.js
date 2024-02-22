@@ -1,19 +1,19 @@
 export class ReviewPage{
 
     getTextboxFullname() {
-        return cy.get(':nth-child(1) > .-bQ-47 > .-a-51 > .-na-62 > .-_W-61')
+        return cy.get('#question-list > div:nth-child(1) > div.-bT-48 > div > span > input')
     }
     
     getTextboxPhoneNumber(){
-        return cy.get(':nth-child(2) > .-bQ-47 > .-a-51 > .-na-62 > .-_W-61')
+        return cy.get('#question-list > div:nth-child(2) > div.-bT-48 > div > span > input')
     }
     
     getRadioButtonExpensive(){
-        return cy.get(':nth-child(2) > div > .--D-78 > .-a-79 > .-gW-80')
+        return cy.get('#question-list > div:nth-child(3) > div.-bT-48 > div > div.-a-77 > div:nth-child(2) > div > label > span.-a-80 > input')
     }
     
     getFiveStars(){
-        return cy.get('#question-list > div:nth-child(4) > div.-bQ-47 > div > div > div:nth-child(5) > span')
+        return cy.get('#question-list > div:nth-child(4) > div.-bT-48 > div > div > div:nth-child(5) > span')
     }
     
     getDatePicker() {
@@ -21,7 +21,7 @@ export class ReviewPage{
     }
 
     getSelectDate() {
-        return cy.get('tr td button span').eq(31)
+        return cy.get('tr td button span').eq(36)
     }
 
     getButtonSubmit() {
