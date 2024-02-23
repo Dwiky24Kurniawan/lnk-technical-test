@@ -21,7 +21,8 @@ export class ReviewPage{
     }
 
     getSelectDate() {
-        return cy.get('tr td button span').eq(36)
+        // return cy.get('tr td button span').eq(36)
+        return cy.xpath('//*[@id="DatePicker-Callout1"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[6]/td[7]/button/span')
     }
 
     getButtonSubmit() {
