@@ -1,19 +1,19 @@
 export class ReviewPage{
 
     getTextboxFullname() {
-        return cy.get('#question-list > div:nth-child(1) > div.-bT-48 > div > span > input')
+        return cy.xpath('/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/span[1]/input[1]')
     }
     
     getTextboxPhoneNumber(){
-        return cy.get('#question-list > div:nth-child(2) > div.-bT-48 > div > span > input')
+        return cy.xpath('/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/span[1]/input[1]')
     }
     
     getRadioButtonExpensive(){
-        return cy.get('#question-list > div:nth-child(3) > div.-bT-48 > div > div.-a-77 > div:nth-child(2) > div > label > span.-a-80 > input')
+        return cy.get('input[value="Expensive"]')
     }
     
     getFiveStars(){
-        return cy.get('#question-list > div:nth-child(4) > div.-bT-48 > div > div > div:nth-child(5) > span')
+        return cy.xpath('/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[2]/div[4]/div[2]/div[1]/div[1]/div[5]/span[1]/span[1]')
     }
     
     getDatePicker() {
